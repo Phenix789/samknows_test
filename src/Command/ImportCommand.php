@@ -22,10 +22,10 @@ class ImportCommand extends Command
 
         $this->addArgument('filename', InputArgument::REQUIRED, 'Filename to import');
 
-        $this->addOption('host', 'h', InputOption::VALUE_OPTIONAL, 'database host', 'localhost');
-        $this->addOption('dbname', 'db', InputOption::VALUE_OPTIONAL, 'database name', 'samknows');
-        $this->addOption('username', 'u', InputOption::VALUE_OPTIONAL, 'database username', 'root');
-        $this->addOption('password', 'p', InputOption::VALUE_OPTIONAL, 'database password', 'root');
+        $this->addOption('host', null, InputOption::VALUE_OPTIONAL, 'database host', 'localhost');
+        $this->addOption('dbname', null, InputOption::VALUE_OPTIONAL, 'database name', 'samknows');
+        $this->addOption('username', null, InputOption::VALUE_OPTIONAL, 'database username', 'root');
+        $this->addOption('password', null, InputOption::VALUE_OPTIONAL, 'database password', 'root');
     }
 
     /**
