@@ -4,7 +4,7 @@
   "type": "project",
   "description": "SamKnows technical test",
   "autoload": {
-    "psr-4": { "": "src/" }
+    "psr-4": { "SamKnows\\": "src/" }
   },
   "require": {
     "php": ">=7",
